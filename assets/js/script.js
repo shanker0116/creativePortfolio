@@ -162,8 +162,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 const downloadBtn = document.querySelector('#download-btn');
 downloadBtn.addEventListener('click', () => {
-  const pdfUrl = 'assets/pdf/cv.pdf';
-  const pdfName = 'shanker-cv.pdf';
+  const pdfUrl = 'assets/pdf/shankerResume.pdf';
+  const pdfName = 'shankerResume.pdf';
   const link = document.createElement('a');
   link.href = pdfUrl;
   link.download = pdfName;
